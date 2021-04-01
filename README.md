@@ -2,8 +2,11 @@
 
 ## Problem Statement Breakdown:
 The problem statement was the fusion of three sub tasks:
+
 **Task 1** Theme Classification
+
 **Task 2** Aspect Based Sentiment Classification
+
 **Task 3** Headline Generation
 
 ## Structure
@@ -28,7 +31,7 @@ Contains training data as provided under the problem statement.
 ### 4. test
 Comprises of evaluation dataset as provided.
 
-### 5. Requirements
+### 5. requirements
 The requirements folder comprises of five ``txt`` files, containing required libraries version for each of the five notebooks mentioned above.
 
 ### 6. writeups
@@ -40,5 +43,5 @@ The notebook files *Task1&2.ipynb* and *Task3.ipynb* both individually contains 
 For Headline Generation (Task3 and Evaluation), first run the scripts ``Pegasus_FineTune.ipynb`` and ``T5_FineTune.ipynb`` present in the **main** folder to generate savedmodels for inference. For "Theme Classification" and "Aspect Based Sentiment Classification", directly run the *Task1&2.ipynb* file.
 
 ## Credits  
-Aryan Rastogi  
-Vardhan Paliwal  
+Aryan Rastogi (Electrical Engineering - IIT Indore)  
+Vardhan Paliwal (Electrical Engineering - IIT Indore)  
