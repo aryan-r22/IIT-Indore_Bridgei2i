@@ -22,10 +22,10 @@ Consists of two output files: Output1 and Output2. A description about them is a
 1. **Output1.csv**: Contains TextID, Predicted Labels, and generated headlines.
 2. **Output2.csv**: Contains TextID, Predicted Labels and Extracted Brands and their sentiments.
 
-### 3. Development Data
+### 3. data
 Contains training data as provided under the problem statement.
 
-### 4. Evaluation Datasets
+### 4. test
 Comprises of evaluation dataset as provided.
 
 ### 5. Requirements
@@ -38,3 +38,7 @@ It contains two files: ``Technical Report.pdf`` and ``Presentation.pdf``. Both t
 The notebook files *Task1&2.ipynb* and *Task3.ipynb* both individually contains data preprocessing functions. But the preprocessing may take a variable amount of time, depending upon the number of requests to the Google Translation API by a given IP Address, and may be impacted by unavailibility of service due to high amount of API requests (in the scenario of running the code multiple times). However, for stable runtimes of the translation process, the paid version of the API can be used. We have used the open source version of the same, in accordance to the rules of the competition. 
 
 For Headline Generation (Task3 and Evaluation), first run the scripts ``Pegasus_FineTune.ipynb`` and ``T5_FineTune.ipynb`` present in the **main** folder to generate savedmodels for inference. For "Theme Classification" and "Aspect Based Sentiment Classification", directly run the *Task1&2.ipynb* file.
+
+## Credits  
+Aryan Rastogi  
+Vardhan Paliwal  
