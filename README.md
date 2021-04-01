@@ -2,6 +2,7 @@
 
 ## Problem Statement Breakdown:
 The problem statement was the fusion of three sub tasks:
+
 **Task 1** Theme Classification
 
 **Task 2** Aspect Based Sentiment Classification
