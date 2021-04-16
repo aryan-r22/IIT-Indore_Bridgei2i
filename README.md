@@ -45,5 +45,4 @@ For Headline Generation (Task3 and Evaluation), first run the scripts ``Pegasus_
 ``Evaluation.ipynb`` comprises of all the tasks mentioned under the problem statement. However, we would like to remind that in order to run it, ``Task1&2.ipynb`` and ``Pegasus_Finetune.ipynb`` must be run first in order to use the ``Evaluation.ipynb`` notebook for the inference.
 
 ## Credits  
-Aryan Rastogi (Electrical Engineering - IIT Indore)  
-Vardhan Paliwal (Electrical Engineering - IIT Indore)  
+IIT-Indore  
